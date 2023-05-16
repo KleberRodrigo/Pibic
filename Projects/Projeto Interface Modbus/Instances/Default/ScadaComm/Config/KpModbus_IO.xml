@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DevTemplate>
+  <Settings>
+    <ZeroAddr>true</ZeroAddr>
+    <DecAddr>true</DecAddr>
+    <DefByteOrder2 />
+    <DefByteOrder4 />
+    <DefByteOrder8 />
+  </Settings>
+  <ElemGroups>
+    <ElemGroup active="true" tableType="DiscreteInputs" address="0" name="Entrada Digital">
+      <Elem name="Entrada Digital 1" />
+      <Elem name="Entrada Digital 2" />
+      <Elem name="Entrada Digital 3" />
+      <Elem name="Entrada Digital 4" />
+      <Elem name="Entrada Digital 5" />
+    </ElemGroup>
+    <ElemGroup active="true" tableType="Coils" address="0" name="Saída Digital">
+      <Elem name="Saída Digital 1" />
+      <Elem name="Saída Digital 2" />
+      <Elem name="Saída Digital 3" />
+      <Elem name="Saída Digital 4" />
+      <Elem name="Saída Digital 5" />
+    </ElemGroup>
+    <ElemGroup active="true" tableType="InputRegisters" address="0" name="Entrada Analógica">
+      <Elem name="Entrada Analógica 1" type="ushort" byteOrder="" />
+      <Elem name="Entrada Analógica 2" type="ushort" byteOrder="" />
+      <Elem name="Entrada Analógica 3" type="ushort" byteOrder="" />
+      <Elem name="Entrada Analógica 4" type="ushort" byteOrder="" />
+      <Elem name="Entrada Analógica 5" type="ushort" byteOrder="" />
+    </ElemGroup>
+    <ElemGroup active="true" tableType="HoldingRegisters" address="0" name="Saída Analógica">
+      <Elem name="Saída Analógica 1" type="ushort" byteOrder="" />
+      <Elem name="Saída Analógica 2" type="ushort" byteOrder="" />
+      <Elem name="Saída Analógica 3" type="ushort" byteOrder="" />
+      <Elem name="Saída Analógica 4" type="ushort" byteOrder="" />
+      <Elem name="Saída Analógica 5" type="ushort" byteOrder="" />
+    </ElemGroup>
+  </ElemGroups>
+  <Cmds>
+    <Cmd tableType="Coils" multiple="false" address="0" cmdNum="1" name="Escrita Digital 1" />
+    <Cmd tableType="Coils" multiple="false" address="1" cmdNum="2" name="Escrita Digital 2" />
+    <Cmd tableType="Coils" multiple="false" address="2" cmdNum="3" name="Escrita Digital 4" />
+    <Cmd tableType="Coils" multiple="false" address="3" cmdNum="4" name="Escrita Digital 3" />
+    <Cmd tableType="Coils" multiple="false" address="4" cmdNum="5" name="Escrita Digital 5" />
+    <Cmd tableType="HoldingRegisters" multiple="false" address="0" byteOrder="" cmdNum="6" name="Escrita Analógica 1" />
+    <Cmd tableType="HoldingRegisters" multiple="false" address="1" byteOrder="" cmdNum="7" name="Escrita Analógica 2" />
+    <Cmd tableType="HoldingRegisters" multiple="false" address="2" byteOrder="" cmdNum="8" name="Escrita Analógica 3" />
+    <Cmd tableType="HoldingRegisters" multiple="false" address="3" byteOrder="" cmdNum="9" name="Escrita Analógica 4" />
+    <Cmd tableType="HoldingRegisters" multiple="false" address="4" byteOrder="" cmdNum="1" name="Escrita Analógica 5" />
+  </Cmds>
+</DevTemplate>
