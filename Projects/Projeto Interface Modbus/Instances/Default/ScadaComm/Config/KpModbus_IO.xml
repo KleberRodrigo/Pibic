@@ -47,6 +47,6 @@
     <Cmd tableType="HoldingRegisters" multiple="false" address="1" byteOrder="" cmdNum="7" name="Escrita Analógica 2" />
     <Cmd tableType="HoldingRegisters" multiple="false" address="2" byteOrder="" cmdNum="8" name="Escrita Analógica 3" />
     <Cmd tableType="HoldingRegisters" multiple="false" address="3" byteOrder="" cmdNum="9" name="Escrita Analógica 4" />
-    <Cmd tableType="HoldingRegisters" multiple="false" address="4" byteOrder="" cmdNum="1" name="Escrita Analógica 5" />
+    <Cmd tableType="HoldingRegisters" multiple="false" address="4" byteOrder="" cmdNum="10" name="Escrita Analógica 5" />
   </Cmds>
 </DevTemplate>

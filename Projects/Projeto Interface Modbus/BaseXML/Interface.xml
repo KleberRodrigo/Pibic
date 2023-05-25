@@ -13,8 +13,8 @@
     <ObjNum xsi:nil="true" />
   </Interface>
   <Interface>
-    <ItfID>3</ItfID>
-    <Name>Tabela de entradas\Saídas.tbl</Name>
+    <ItfID>5</ItfID>
+    <Name>Tabela de entradas\Interface_Grafica.sch</Name>
     <Hidden>false</Hidden>
     <ObjNum xsi:nil="true" />
   </Interface>
