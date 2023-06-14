@@ -2,19 +2,7 @@
 <ArrayOfInterface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Interface>
     <ItfID>1</ItfID>
-    <Name>Tabela de entradas\</Name>
-    <Hidden>false</Hidden>
-    <ObjNum xsi:nil="true" />
-  </Interface>
-  <Interface>
-    <ItfID>2</ItfID>
-    <Name>Tabela de entradas\Entradas.tbl</Name>
-    <Hidden>false</Hidden>
-    <ObjNum xsi:nil="true" />
-  </Interface>
-  <Interface>
-    <ItfID>5</ItfID>
-    <Name>Tabela de entradas\Interface_Grafica.sch</Name>
+    <Name>Interface grafica\Planta.sch</Name>
     <Hidden>false</Hidden>
     <ObjNum xsi:nil="true" />
   </Interface>

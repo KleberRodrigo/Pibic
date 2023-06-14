@@ -5,8 +5,6 @@
     <Name>PLC 1</Name>
     <KPTypeID>214</KPTypeID>
     <Address>1</Address>
-    <CallNum />
     <CommLineNum>1</CommLineNum>
-    <Descr />
   </KP>
 </ArrayOfKP>

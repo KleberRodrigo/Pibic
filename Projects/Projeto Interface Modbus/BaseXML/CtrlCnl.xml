@@ -3,12 +3,12 @@
   <CtrlCnl>
     <CtrlCnlNum>101</CtrlCnlNum>
     <Active>true</Active>
-    <Name>PLC 1 - Escrita Digital 1</Name>
+    <Name>PLC 1 - Motor Alimentador de Palha</Name>
     <CmdTypeID>0</CmdTypeID>
     <ObjNum>1</ObjNum>
     <KPNum>1</KPNum>
     <CmdNum>1</CmdNum>
-    <CmdValID>3</CmdValID>
+    <CmdValID xsi:nil="true" />
     <FormulaUsed>false</FormulaUsed>
     <Formula />
     <EvEnabled>false</EvEnabled>
@@ -16,12 +16,12 @@
   <CtrlCnl>
     <CtrlCnlNum>102</CtrlCnlNum>
     <Active>true</Active>
-    <Name>PLC 1 - Escrita Digital 2</Name>
+    <Name>PLC 1 - Motor Secador Rotativo</Name>
     <CmdTypeID>0</CmdTypeID>
     <ObjNum>1</ObjNum>
     <KPNum>1</KPNum>
     <CmdNum>2</CmdNum>
-    <CmdValID>3</CmdValID>
+    <CmdValID xsi:nil="true" />
     <FormulaUsed>false</FormulaUsed>
     <Formula />
     <EvEnabled>false</EvEnabled>
@@ -29,12 +29,12 @@
   <CtrlCnl>
     <CtrlCnlNum>103</CtrlCnlNum>
     <Active>true</Active>
-    <Name>PLC 1 - Escrita Digital 4</Name>
+    <Name>PLC 1 - PWM Alimentador de Palha</Name>
     <CmdTypeID>0</CmdTypeID>
     <ObjNum>1</ObjNum>
     <KPNum>1</KPNum>
     <CmdNum>3</CmdNum>
-    <CmdValID>3</CmdValID>
+    <CmdValID xsi:nil="true" />
     <FormulaUsed>false</FormulaUsed>
     <Formula />
     <EvEnabled>false</EvEnabled>
@@ -42,89 +42,11 @@
   <CtrlCnl>
     <CtrlCnlNum>104</CtrlCnlNum>
     <Active>true</Active>
-    <Name>PLC 1 - Escrita Digital 3</Name>
+    <Name>PLC 1 - PWM Turbina do Secador</Name>
     <CmdTypeID>0</CmdTypeID>
     <ObjNum>1</ObjNum>
     <KPNum>1</KPNum>
     <CmdNum>4</CmdNum>
-    <CmdValID>3</CmdValID>
-    <FormulaUsed>false</FormulaUsed>
-    <Formula />
-    <EvEnabled>false</EvEnabled>
-  </CtrlCnl>
-  <CtrlCnl>
-    <CtrlCnlNum>105</CtrlCnlNum>
-    <Active>true</Active>
-    <Name>PLC 1 - Escrita Digital 5</Name>
-    <CmdTypeID>0</CmdTypeID>
-    <ObjNum>1</ObjNum>
-    <KPNum>1</KPNum>
-    <CmdNum>5</CmdNum>
-    <CmdValID>3</CmdValID>
-    <FormulaUsed>false</FormulaUsed>
-    <Formula />
-    <EvEnabled>false</EvEnabled>
-  </CtrlCnl>
-  <CtrlCnl>
-    <CtrlCnlNum>106</CtrlCnlNum>
-    <Active>true</Active>
-    <Name>PLC 1 - Escrita Analógica 1</Name>
-    <CmdTypeID>0</CmdTypeID>
-    <ObjNum>1</ObjNum>
-    <KPNum>1</KPNum>
-    <CmdNum>6</CmdNum>
-    <CmdValID xsi:nil="true" />
-    <FormulaUsed>false</FormulaUsed>
-    <Formula />
-    <EvEnabled>false</EvEnabled>
-  </CtrlCnl>
-  <CtrlCnl>
-    <CtrlCnlNum>107</CtrlCnlNum>
-    <Active>true</Active>
-    <Name>PLC 1 - Escrita Analógica 2</Name>
-    <CmdTypeID>0</CmdTypeID>
-    <ObjNum>1</ObjNum>
-    <KPNum>1</KPNum>
-    <CmdNum>7</CmdNum>
-    <CmdValID xsi:nil="true" />
-    <FormulaUsed>false</FormulaUsed>
-    <Formula />
-    <EvEnabled>false</EvEnabled>
-  </CtrlCnl>
-  <CtrlCnl>
-    <CtrlCnlNum>108</CtrlCnlNum>
-    <Active>true</Active>
-    <Name>PLC 1 - Escrita Analógica 3</Name>
-    <CmdTypeID>0</CmdTypeID>
-    <ObjNum>1</ObjNum>
-    <KPNum>1</KPNum>
-    <CmdNum>8</CmdNum>
-    <CmdValID xsi:nil="true" />
-    <FormulaUsed>false</FormulaUsed>
-    <Formula />
-    <EvEnabled>false</EvEnabled>
-  </CtrlCnl>
-  <CtrlCnl>
-    <CtrlCnlNum>109</CtrlCnlNum>
-    <Active>true</Active>
-    <Name>PLC 1 - Escrita Analógica 4</Name>
-    <CmdTypeID>0</CmdTypeID>
-    <ObjNum>1</ObjNum>
-    <KPNum>1</KPNum>
-    <CmdNum>9</CmdNum>
-    <CmdValID xsi:nil="true" />
-    <FormulaUsed>false</FormulaUsed>
-    <Formula />
-    <EvEnabled>false</EvEnabled>
-  </CtrlCnl>
-  <CtrlCnl>
-    <CtrlCnlNum>110</CtrlCnlNum>
-    <Active>true</Active>
-    <Name>PLC 1 - Escrita Analógica 5</Name>
-    <CmdTypeID>0</CmdTypeID>
-    <ObjNum>1</ObjNum>
-    <KPNum>1</KPNum>
-    <CmdNum>10</CmdNum>
     <CmdValID xsi:nil="true" />
     <FormulaUsed>false</FormulaUsed>
     <Formula />

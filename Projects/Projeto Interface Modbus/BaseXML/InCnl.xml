@@ -3,7 +3,7 @@
   <InCnl>
     <CnlNum>101</CnlNum>
     <Active>true</Active>
-    <Name>PLC 1 - Entrada Digital 1</Name>
+    <Name>PLC 1 - Sensor de Palha</Name>
     <CnlTypeID>1</CnlTypeID>
     <ObjNum>1</ObjNum>
     <KPNum>1</KPNum>
@@ -27,7 +27,7 @@
   <InCnl>
     <CnlNum>102</CnlNum>
     <Active>true</Active>
-    <Name>PLC 1 - Entrada Digital 2</Name>
+    <Name>PLC 1 - Motor Alimentador de Palha</Name>
     <CnlTypeID>1</CnlTypeID>
     <ObjNum>1</ObjNum>
     <KPNum>1</KPNum>
@@ -51,7 +51,7 @@
   <InCnl>
     <CnlNum>103</CnlNum>
     <Active>true</Active>
-    <Name>PLC 1 - Entrada Digital 3</Name>
+    <Name>PLC 1 - Motor Secador Rotativo</Name>
     <CnlTypeID>1</CnlTypeID>
     <ObjNum>1</ObjNum>
     <KPNum>1</KPNum>
@@ -75,8 +75,8 @@
   <InCnl>
     <CnlNum>104</CnlNum>
     <Active>true</Active>
-    <Name>PLC 1 - Entrada Digital 4</Name>
-    <CnlTypeID>1</CnlTypeID>
+    <Name>PLC 1 - Encoder Turbina Do Alimentador</Name>
+    <CnlTypeID>2</CnlTypeID>
     <ObjNum>1</ObjNum>
     <KPNum>1</KPNum>
     <Signal>4</Signal>
@@ -84,12 +84,12 @@
     <Formula />
     <Averaging>false</Averaging>
     <ParamID xsi:nil="true" />
-    <FormatID>10</FormatID>
-    <UnitID>16</UnitID>
+    <FormatID>2</FormatID>
+    <UnitID xsi:nil="true" />
     <CtrlCnlNum xsi:nil="true" />
-    <EvEnabled>true</EvEnabled>
+    <EvEnabled>false</EvEnabled>
     <EvSound>false</EvSound>
-    <EvOnChange>true</EvOnChange>
+    <EvOnChange>false</EvOnChange>
     <EvOnUndef>false</EvOnUndef>
     <LimLowCrash xsi:nil="true" />
     <LimLow xsi:nil="true" />
@@ -99,8 +99,8 @@
   <InCnl>
     <CnlNum>105</CnlNum>
     <Active>true</Active>
-    <Name>PLC 1 - Entrada Digital 5</Name>
-    <CnlTypeID>1</CnlTypeID>
+    <Name>PLC 1 - Sensor de Temperatura Da Fornalha</Name>
+    <CnlTypeID>2</CnlTypeID>
     <ObjNum>1</ObjNum>
     <KPNum>1</KPNum>
     <Signal>5</Signal>
@@ -108,12 +108,12 @@
     <Formula />
     <Averaging>false</Averaging>
     <ParamID xsi:nil="true" />
-    <FormatID>10</FormatID>
-    <UnitID>16</UnitID>
+    <FormatID>2</FormatID>
+    <UnitID xsi:nil="true" />
     <CtrlCnlNum xsi:nil="true" />
-    <EvEnabled>true</EvEnabled>
+    <EvEnabled>false</EvEnabled>
     <EvSound>false</EvSound>
-    <EvOnChange>true</EvOnChange>
+    <EvOnChange>false</EvOnChange>
     <EvOnUndef>false</EvOnUndef>
     <LimLowCrash xsi:nil="true" />
     <LimLow xsi:nil="true" />
@@ -123,8 +123,8 @@
   <InCnl>
     <CnlNum>106</CnlNum>
     <Active>true</Active>
-    <Name>PLC 1 - Saída Digital 1</Name>
-    <CnlTypeID>1</CnlTypeID>
+    <Name>PLC 1 - Encoder Turbina da Fornalha</Name>
+    <CnlTypeID>2</CnlTypeID>
     <ObjNum>1</ObjNum>
     <KPNum>1</KPNum>
     <Signal>6</Signal>
@@ -132,12 +132,12 @@
     <Formula />
     <Averaging>false</Averaging>
     <ParamID xsi:nil="true" />
-    <FormatID>10</FormatID>
-    <UnitID>16</UnitID>
+    <FormatID>2</FormatID>
+    <UnitID xsi:nil="true" />
     <CtrlCnlNum xsi:nil="true" />
-    <EvEnabled>true</EvEnabled>
+    <EvEnabled>false</EvEnabled>
     <EvSound>false</EvSound>
-    <EvOnChange>true</EvOnChange>
+    <EvOnChange>false</EvOnChange>
     <EvOnUndef>false</EvOnUndef>
     <LimLowCrash xsi:nil="true" />
     <LimLow xsi:nil="true" />
@@ -147,8 +147,8 @@
   <InCnl>
     <CnlNum>107</CnlNum>
     <Active>true</Active>
-    <Name>PLC 1 - Saída Digital 2</Name>
-    <CnlTypeID>1</CnlTypeID>
+    <Name>PLC 1 - Sensor de Temperatura da Turbina </Name>
+    <CnlTypeID>2</CnlTypeID>
     <ObjNum>1</ObjNum>
     <KPNum>1</KPNum>
     <Signal>7</Signal>
@@ -156,12 +156,12 @@
     <Formula />
     <Averaging>false</Averaging>
     <ParamID xsi:nil="true" />
-    <FormatID>10</FormatID>
-    <UnitID>16</UnitID>
+    <FormatID>2</FormatID>
+    <UnitID xsi:nil="true" />
     <CtrlCnlNum xsi:nil="true" />
-    <EvEnabled>true</EvEnabled>
+    <EvEnabled>false</EvEnabled>
     <EvSound>false</EvSound>
-    <EvOnChange>true</EvOnChange>
+    <EvOnChange>false</EvOnChange>
     <EvOnUndef>false</EvOnUndef>
     <LimLowCrash xsi:nil="true" />
     <LimLow xsi:nil="true" />
@@ -171,8 +171,8 @@
   <InCnl>
     <CnlNum>108</CnlNum>
     <Active>true</Active>
-    <Name>PLC 1 - Saída Digital 3</Name>
-    <CnlTypeID>1</CnlTypeID>
+    <Name>PLC 1 - Encoder do tambor do Secador Rotativo</Name>
+    <CnlTypeID>2</CnlTypeID>
     <ObjNum>1</ObjNum>
     <KPNum>1</KPNum>
     <Signal>8</Signal>
@@ -180,12 +180,12 @@
     <Formula />
     <Averaging>false</Averaging>
     <ParamID xsi:nil="true" />
-    <FormatID>10</FormatID>
-    <UnitID>16</UnitID>
+    <FormatID>2</FormatID>
+    <UnitID xsi:nil="true" />
     <CtrlCnlNum xsi:nil="true" />
-    <EvEnabled>true</EvEnabled>
+    <EvEnabled>false</EvEnabled>
     <EvSound>false</EvSound>
-    <EvOnChange>true</EvOnChange>
+    <EvOnChange>false</EvOnChange>
     <EvOnUndef>false</EvOnUndef>
     <LimLowCrash xsi:nil="true" />
     <LimLow xsi:nil="true" />
@@ -195,8 +195,8 @@
   <InCnl>
     <CnlNum>109</CnlNum>
     <Active>true</Active>
-    <Name>PLC 1 - Saída Digital 4</Name>
-    <CnlTypeID>1</CnlTypeID>
+    <Name>PLC 1 - Sensor de Umidade do Secador Rotativo</Name>
+    <CnlTypeID>2</CnlTypeID>
     <ObjNum>1</ObjNum>
     <KPNum>1</KPNum>
     <Signal>9</Signal>
@@ -204,12 +204,12 @@
     <Formula />
     <Averaging>false</Averaging>
     <ParamID xsi:nil="true" />
-    <FormatID>10</FormatID>
-    <UnitID>16</UnitID>
+    <FormatID>2</FormatID>
+    <UnitID xsi:nil="true" />
     <CtrlCnlNum xsi:nil="true" />
-    <EvEnabled>true</EvEnabled>
+    <EvEnabled>false</EvEnabled>
     <EvSound>false</EvSound>
-    <EvOnChange>true</EvOnChange>
+    <EvOnChange>false</EvOnChange>
     <EvOnUndef>false</EvOnUndef>
     <LimLowCrash xsi:nil="true" />
     <LimLow xsi:nil="true" />
@@ -219,8 +219,8 @@
   <InCnl>
     <CnlNum>110</CnlNum>
     <Active>true</Active>
-    <Name>PLC 1 - Saída Digital 5</Name>
-    <CnlTypeID>1</CnlTypeID>
+    <Name>PLC 1 - Sensor de Temperatura Secador</Name>
+    <CnlTypeID>2</CnlTypeID>
     <ObjNum>1</ObjNum>
     <KPNum>1</KPNum>
     <Signal>10</Signal>
@@ -228,12 +228,12 @@
     <Formula />
     <Averaging>false</Averaging>
     <ParamID xsi:nil="true" />
-    <FormatID>10</FormatID>
-    <UnitID>16</UnitID>
+    <FormatID>2</FormatID>
+    <UnitID xsi:nil="true" />
     <CtrlCnlNum xsi:nil="true" />
-    <EvEnabled>true</EvEnabled>
+    <EvEnabled>false</EvEnabled>
     <EvSound>false</EvSound>
-    <EvOnChange>true</EvOnChange>
+    <EvOnChange>false</EvOnChange>
     <EvOnUndef>false</EvOnUndef>
     <LimLowCrash xsi:nil="true" />
     <LimLow xsi:nil="true" />
@@ -243,18 +243,17 @@
   <InCnl>
     <CnlNum>111</CnlNum>
     <Active>true</Active>
-    <Name>PLC 1 - Entrada Analógica 1</Name>
+    <Name>PLC 1 - PWM Turbina Alimentador</Name>
     <CnlTypeID>2</CnlTypeID>
     <ObjNum>1</ObjNum>
     <KPNum>1</KPNum>
     <Signal>11</Signal>
     <FormulaUsed>false</FormulaUsed>
-    <Formula />
     <Averaging>false</Averaging>
     <ParamID xsi:nil="true" />
-    <FormatID>0</FormatID>
+    <FormatID>2</FormatID>
     <UnitID xsi:nil="true" />
-    <CtrlCnlNum xsi:nil="true" />
+    <CtrlCnlNum>103</CtrlCnlNum>
     <EvEnabled>false</EvEnabled>
     <EvSound>false</EvSound>
     <EvOnChange>false</EvOnChange>
@@ -267,210 +266,17 @@
   <InCnl>
     <CnlNum>112</CnlNum>
     <Active>true</Active>
-    <Name>PLC 1 - Entrada Analógica 2</Name>
+    <Name>PLC 1 - PWM Turbina Fornalha</Name>
     <CnlTypeID>2</CnlTypeID>
     <ObjNum>1</ObjNum>
     <KPNum>1</KPNum>
     <Signal>12</Signal>
     <FormulaUsed>false</FormulaUsed>
-    <Formula />
     <Averaging>false</Averaging>
     <ParamID xsi:nil="true" />
-    <FormatID>0</FormatID>
+    <FormatID>2</FormatID>
     <UnitID xsi:nil="true" />
-    <CtrlCnlNum xsi:nil="true" />
-    <EvEnabled>false</EvEnabled>
-    <EvSound>false</EvSound>
-    <EvOnChange>false</EvOnChange>
-    <EvOnUndef>false</EvOnUndef>
-    <LimLowCrash xsi:nil="true" />
-    <LimLow xsi:nil="true" />
-    <LimHigh xsi:nil="true" />
-    <LimHighCrash xsi:nil="true" />
-  </InCnl>
-  <InCnl>
-    <CnlNum>113</CnlNum>
-    <Active>true</Active>
-    <Name>PLC 1 - Entrada Analógica 3</Name>
-    <CnlTypeID>2</CnlTypeID>
-    <ObjNum>1</ObjNum>
-    <KPNum>1</KPNum>
-    <Signal>13</Signal>
-    <FormulaUsed>false</FormulaUsed>
-    <Formula />
-    <Averaging>false</Averaging>
-    <ParamID xsi:nil="true" />
-    <FormatID>0</FormatID>
-    <UnitID xsi:nil="true" />
-    <CtrlCnlNum xsi:nil="true" />
-    <EvEnabled>false</EvEnabled>
-    <EvSound>false</EvSound>
-    <EvOnChange>false</EvOnChange>
-    <EvOnUndef>false</EvOnUndef>
-    <LimLowCrash xsi:nil="true" />
-    <LimLow xsi:nil="true" />
-    <LimHigh xsi:nil="true" />
-    <LimHighCrash xsi:nil="true" />
-  </InCnl>
-  <InCnl>
-    <CnlNum>114</CnlNum>
-    <Active>true</Active>
-    <Name>PLC 1 - Entrada Analógica 4</Name>
-    <CnlTypeID>2</CnlTypeID>
-    <ObjNum>1</ObjNum>
-    <KPNum>1</KPNum>
-    <Signal>14</Signal>
-    <FormulaUsed>false</FormulaUsed>
-    <Formula />
-    <Averaging>false</Averaging>
-    <ParamID xsi:nil="true" />
-    <FormatID>0</FormatID>
-    <UnitID xsi:nil="true" />
-    <CtrlCnlNum xsi:nil="true" />
-    <EvEnabled>false</EvEnabled>
-    <EvSound>false</EvSound>
-    <EvOnChange>false</EvOnChange>
-    <EvOnUndef>false</EvOnUndef>
-    <LimLowCrash xsi:nil="true" />
-    <LimLow xsi:nil="true" />
-    <LimHigh xsi:nil="true" />
-    <LimHighCrash xsi:nil="true" />
-  </InCnl>
-  <InCnl>
-    <CnlNum>115</CnlNum>
-    <Active>true</Active>
-    <Name>PLC 1 - Entrada Analógica 5</Name>
-    <CnlTypeID>2</CnlTypeID>
-    <ObjNum>1</ObjNum>
-    <KPNum>1</KPNum>
-    <Signal>15</Signal>
-    <FormulaUsed>false</FormulaUsed>
-    <Formula />
-    <Averaging>false</Averaging>
-    <ParamID xsi:nil="true" />
-    <FormatID>0</FormatID>
-    <UnitID xsi:nil="true" />
-    <CtrlCnlNum xsi:nil="true" />
-    <EvEnabled>false</EvEnabled>
-    <EvSound>false</EvSound>
-    <EvOnChange>false</EvOnChange>
-    <EvOnUndef>false</EvOnUndef>
-    <LimLowCrash xsi:nil="true" />
-    <LimLow xsi:nil="true" />
-    <LimHigh xsi:nil="true" />
-    <LimHighCrash xsi:nil="true" />
-  </InCnl>
-  <InCnl>
-    <CnlNum>116</CnlNum>
-    <Active>true</Active>
-    <Name>PLC 1 - Saída Analógica 1</Name>
-    <CnlTypeID>2</CnlTypeID>
-    <ObjNum>1</ObjNum>
-    <KPNum>1</KPNum>
-    <Signal>16</Signal>
-    <FormulaUsed>false</FormulaUsed>
-    <Formula />
-    <Averaging>false</Averaging>
-    <ParamID xsi:nil="true" />
-    <FormatID>0</FormatID>
-    <UnitID xsi:nil="true" />
-    <CtrlCnlNum xsi:nil="true" />
-    <EvEnabled>false</EvEnabled>
-    <EvSound>false</EvSound>
-    <EvOnChange>false</EvOnChange>
-    <EvOnUndef>false</EvOnUndef>
-    <LimLowCrash xsi:nil="true" />
-    <LimLow xsi:nil="true" />
-    <LimHigh xsi:nil="true" />
-    <LimHighCrash xsi:nil="true" />
-  </InCnl>
-  <InCnl>
-    <CnlNum>117</CnlNum>
-    <Active>true</Active>
-    <Name>PLC 1 - Saída Analógica 2</Name>
-    <CnlTypeID>2</CnlTypeID>
-    <ObjNum>1</ObjNum>
-    <KPNum>1</KPNum>
-    <Signal>17</Signal>
-    <FormulaUsed>false</FormulaUsed>
-    <Formula />
-    <Averaging>false</Averaging>
-    <ParamID xsi:nil="true" />
-    <FormatID>0</FormatID>
-    <UnitID xsi:nil="true" />
-    <CtrlCnlNum xsi:nil="true" />
-    <EvEnabled>false</EvEnabled>
-    <EvSound>false</EvSound>
-    <EvOnChange>false</EvOnChange>
-    <EvOnUndef>false</EvOnUndef>
-    <LimLowCrash xsi:nil="true" />
-    <LimLow xsi:nil="true" />
-    <LimHigh xsi:nil="true" />
-    <LimHighCrash xsi:nil="true" />
-  </InCnl>
-  <InCnl>
-    <CnlNum>118</CnlNum>
-    <Active>true</Active>
-    <Name>PLC 1 - Saída Analógica 3</Name>
-    <CnlTypeID>2</CnlTypeID>
-    <ObjNum>1</ObjNum>
-    <KPNum>1</KPNum>
-    <Signal>18</Signal>
-    <FormulaUsed>false</FormulaUsed>
-    <Formula />
-    <Averaging>false</Averaging>
-    <ParamID xsi:nil="true" />
-    <FormatID>0</FormatID>
-    <UnitID xsi:nil="true" />
-    <CtrlCnlNum xsi:nil="true" />
-    <EvEnabled>false</EvEnabled>
-    <EvSound>false</EvSound>
-    <EvOnChange>false</EvOnChange>
-    <EvOnUndef>false</EvOnUndef>
-    <LimLowCrash xsi:nil="true" />
-    <LimLow xsi:nil="true" />
-    <LimHigh xsi:nil="true" />
-    <LimHighCrash xsi:nil="true" />
-  </InCnl>
-  <InCnl>
-    <CnlNum>119</CnlNum>
-    <Active>true</Active>
-    <Name>PLC 1 - Saída Analógica 4</Name>
-    <CnlTypeID>2</CnlTypeID>
-    <ObjNum>1</ObjNum>
-    <KPNum>1</KPNum>
-    <Signal>19</Signal>
-    <FormulaUsed>false</FormulaUsed>
-    <Formula />
-    <Averaging>false</Averaging>
-    <ParamID xsi:nil="true" />
-    <FormatID>0</FormatID>
-    <UnitID xsi:nil="true" />
-    <CtrlCnlNum xsi:nil="true" />
-    <EvEnabled>false</EvEnabled>
-    <EvSound>false</EvSound>
-    <EvOnChange>false</EvOnChange>
-    <EvOnUndef>false</EvOnUndef>
-    <LimLowCrash xsi:nil="true" />
-    <LimLow xsi:nil="true" />
-    <LimHigh xsi:nil="true" />
-    <LimHighCrash xsi:nil="true" />
-  </InCnl>
-  <InCnl>
-    <CnlNum>120</CnlNum>
-    <Active>true</Active>
-    <Name>PLC 1 - Saída Analógica 5</Name>
-    <CnlTypeID>2</CnlTypeID>
-    <ObjNum>1</ObjNum>
-    <KPNum>1</KPNum>
-    <Signal>20</Signal>
-    <FormulaUsed>false</FormulaUsed>
-    <Formula />
-    <Averaging>false</Averaging>
-    <ParamID xsi:nil="true" />
-    <FormatID>0</FormatID>
-    <UnitID xsi:nil="true" />
-    <CtrlCnlNum xsi:nil="true" />
+    <CtrlCnlNum>104</CtrlCnlNum>
     <EvEnabled>false</EvEnabled>
     <EvSound>false</EvSound>
     <EvOnChange>false</EvOnChange>
