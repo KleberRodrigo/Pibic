@@ -6,4 +6,11 @@
     <Hidden>false</Hidden>
     <ObjNum xsi:nil="true" />
   </Interface>
+  <Interface>
+    <ItfID>2</ItfID>
+    <Name>Interface grafica\Tabela.tbl</Name>
+    <Descr>Tabela</Descr>
+    <Hidden>false</Hidden>
+    <ObjNum xsi:nil="true" />
+  </Interface>
 </ArrayOfInterface>

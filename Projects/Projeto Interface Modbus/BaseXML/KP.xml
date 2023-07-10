@@ -2,9 +2,10 @@
 <ArrayOfKP xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <KP>
     <KPNum>1</KPNum>
-    <Name>PLC 1</Name>
+    <Name>PLC1</Name>
     <KPTypeID>214</KPTypeID>
     <Address>1</Address>
+    <CallNum>127.0.0.1</CallNum>
     <CommLineNum>1</CommLineNum>
   </KP>
 </ArrayOfKP>

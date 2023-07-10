@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TableView title="">
+  <Param>PLC1 - Entradas</Param>
+  <Param cnlNum="101">PLC 1 - Sensor de Palha</Param>
+  <Param cnlNum="102">PLC 1 - Motor Alimentador de Palha</Param>
+  <Param cnlNum="103">PLC 1 - Motor Secador Rotativo</Param>
+  <Param cnlNum="104">PLC 1 - Encoder Turbina Do Alimentador</Param>
+  <Param cnlNum="105">PLC 1 - Sensor de Temperatura Da Fornalha</Param>
+  <Param cnlNum="106">PLC 1 - Encoder Turbina da Fornalha</Param>
+  <Param cnlNum="107">PLC 1 - Sensor de Temperatura da Turbina </Param>
+  <Param cnlNum="108">PLC 1 - Encoder do tambor do Secador Rotativo</Param>
+  <Param cnlNum="109">PLC 1 - Sensor de Umidade do Secador Rotativo</Param>
+  <Param cnlNum="110">PLC 1 - Sensor de Temperatura Secador</Param>
+  <Param cnlNum="111">PLC 1 - PWM Turbina Alimentador</Param>
+  <Param cnlNum="112">PLC 1 - PWM Turbina Fornalha</Param>
+  <Param>PLC1 Saídas</Param>
+  <Param ctrlCnlNum="101">PLC 1 - Motor Alimentador de Palha</Param>
+  <Param ctrlCnlNum="102">PLC 1 - Motor Secador Rotativo</Param>
+  <Param ctrlCnlNum="103">PLC 1 - PWM Alimentador de Palha</Param>
+  <Param ctrlCnlNum="104">PLC 1 - PWM Turbina do Secador</Param>
+</TableView>
